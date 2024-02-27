@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQ7cqawW9V6XmwN1nO7vTzQx-TOSF0avLXg&usqp=CAU" type="image/gif" sizes="16x16">  
+<meta charset="UTF-8">  
+<title>DISNEY+ HOTSTAR</title>  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<script src="//content.jwplatform.com/libraries/SAHhwvZq.js"></script>  
+<style>   
+   body {   
+             margin: 0px   
+        }   
+      
+        .jwplayer {   
+             position: absolute !important   
+        }   
+      
+        .jwplayer.jw-flag-aspect-mode {   
+             min-height: 100%;   
+             max-height: 100%   
+        }   
+  </style>  
+</head>  
+<body>  
+<div id="jwplayerDiv"></div>  
+<script type="text/javascript">    
+jwplayer("jwplayerDiv").setup({    
+        file: "https://bpprod7linear.akamaized.net/bpk-tv/irdeto_com_Channel_257/output/manifest.mpd", 
+         position: 'bottom',  
+        "autostart": true,
+        "Volume": "100",
+        "mute": false,
+        "stretching": "exactfit",
+        "width": "100%", 
+      type: "dash",    
+      drm: { "clearkey": {     
+              "keyId": "1cbe293fdc385dac8c0d502b04f338e4",
+              "key": "508a60ec650583798fa0214c364ae596"
+            }    
+             }               
+});    
+</script>
